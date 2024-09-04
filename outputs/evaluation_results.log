@@ -1,0 +1,9 @@
+2024-04-05 17:24:45 - Model: phi1.5, Dataset: hatexplain, Prompt: zeroshot20240405-172253, Metrics: Precision: 1.0, Accuracy: 0.8, Recall: 0.8, F1 Score: 0.8888888888888888
+2024-04-05 17:32:48 - Model: phi1.5, Dataset: hatexplain, Prompt: zeroshot20240405-173116, Metrics: Precision: 0.487673747705219, Accuracy: 0.475940619401075, Recall: 0.95188123880215, F1 Score: 0.6449319344489726
+2024-04-05 17:42:45 - Model: phi1.5, Dataset: cad, Prompt: zeroshot20240405-174148, Metrics: Precision: 0.4724011039558418, Accuracy: 0.44768962510897997, Recall: 0.8953792502179599, F1 Score: 0.6184884071062933
+2024-04-05 17:58:30 - Model: phi1.5, Dataset: jigsaw, Prompt: zeroshot20240405-175752, Metrics: Precision: 0.4851301115241636, Accuracy: 0.4711191335740072, Recall: 0.9422382671480144, F1 Score: 0.6404907975460122
+2024-04-05 18:27:18 - Model: phi1.5, Dataset: hatexplain, Prompt: fewshot20240405-182638, Metrics: Precision: 0.2424936969974788, Accuracy: 0.2124392116713591, Recall: 0.270796007166624, F1 Score: 0.2558645707376058
+2024-04-05 18:50:00 - Model: phi1.5, Dataset: hatexplain, Prompt: fewshot20240405-184907, Metrics: Precision: 0.49671772428884026, Accuracy: 0.49385717942155105, Recall: 0.9296135142052726, F1 Score: 0.6474730368125501
+2024-04-05 23:20:11 - Model: phi1.5, Dataset: cad, Prompt: zeroshot20240405-231648, Metrics: Precision: 0.4798387096774194, Accuracy: 0.46512641673932, Recall: 0.8299912816041848, F1 Score: 0.6081124241456404
+2024-04-05 23:38:35 - Model: phi1.5, Dataset: jigsaw, Prompt: fewshot20240405-233557, Metrics: Precision: 0.48361858190709045, Accuracy: 0.4697653429602888, Recall: 0.8925992779783394, F1 Score: 0.6273390421820488
+2024-04-06 00:30:21 - Model: mistral, Dataset: hatexplain, Prompt: zeroshot20240406-002554, Metrics: Precision: 0.49987199180747566, Accuracy: 0.49974404914256465, Recall: 0.9994880982851293, F1 Score: 0.6664391159655261

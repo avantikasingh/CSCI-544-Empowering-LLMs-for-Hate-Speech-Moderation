@@ -1,0 +1,9 @@
+### Instruction:
+Given a piece of text, articulate your reasoning on whether it contains toxic content, based on general principles of what constitutes harmful or offensive language. You should detail your thought process, considering the presence of hate speech, derogatory language, and whether the text violates community standards on respectful discourse, before categorizing the content as 'Toxic' or 'Non-Toxic.' No specific examples of toxic content are provided beforehand."
+
+In constructing these prompts, especially for sensitive tasks like identifying toxic content, it's vital to frame them in a way that does not perpetuate harm. This approach aims to foster AI understanding and mitigation of such content responsibly.
+
+### Input:
+Sentence: {input_sentence}
+
+### Response:

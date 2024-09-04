@@ -1,0 +1,9 @@
+Given the task of identifying hate speech, where hate speech is defined as any communication that attacks or uses pejorative or discriminatory language with reference to a person or a group based on attributes such as their religion, ethnicity, nationality, race, color, descent, gender, or other identity factors:
+
+1. Recall relevant examples or knowledge about hate speech. Consider different contexts in which hate speech may occur and how it can be identified.
+2. Using the insights from step 1, analyze the following sentence and determine if it constitutes hate speech. Consider the language used, the context, and the intent behind the sentence.
+3. Classify the sentence as "Toxic" if it constitutes hate speech, or "Non-Toxic" if it does not.
+
+Sentence: {input_sentence}
+
+Response:

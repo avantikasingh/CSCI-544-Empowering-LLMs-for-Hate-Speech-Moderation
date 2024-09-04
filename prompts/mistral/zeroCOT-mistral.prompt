@@ -1,0 +1,5 @@
+To determine if the provided sentence constitutes hate speech, first, identify the target group or individual and the type of language used. Then, assess whether the language is pejorative, discriminatory, or attacking an individual or group based on their religion, ethnicity, nationality, race, color, descent, gender, or other identity factors. Finally, classify the sentence as "Toxic" if it constitutes hate speech, or "Non-Toxic" if it does not. Provide your reasoning.
+
+Input: {input_sentence}
+
+Response:

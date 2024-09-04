@@ -1,0 +1,43 @@
+### Instruction:
+Here are a few examples of text categorized as 'Toxic' or 'Non-Toxic.' Based on these examples, determine the category for a new piece of text:
+
+### Input:
+Example 1:
+Sentence:"user i am bit confused coz chinese ppl can not access twitter thn how this ching chong using it i think he pakistani.
+Classification:"Toxic"
+
+Example 2:
+Sentence:"and this is why i end up with nigger trainee doctors who can not speak properly lack basic knowledge of biology it truly scary if the public only knew.
+Classification:"Toxic".
+
+Example 3:
+Sentence:"nogs jews and dykes how enriching.
+Classification:"Toxic".
+
+Example 4:
+Sentence:"guilty until proven innocent unless you are a jew a nigger or a lover of both.
+Classification:"Toxic".
+
+Example 5:
+Sentence:"number number percent of brits think multiculturalism is a failure i guess the other percent are happy with their muzzie master there no great in britain anymore soon big ben will be converted into a minaret.
+Classification:"Toxic".
+
+Example 6:
+Sentence:"user condoning drug use not kike at all thanks for that disclosure.
+Classification:"Toxic".
+
+Example 7:
+Sentence:"lol what a stupid kike.
+Classification:"Toxic".
+
+Example 8:
+Sentence:"why does anyone care what the albino nigger has to say.
+Classification:"Toxic".
+
+Example 9:
+Sentence:"this sounds like a kike national socialist.
+Classification:"Toxic".
+
+Sentence: {input_sentence}
+
+### Response:

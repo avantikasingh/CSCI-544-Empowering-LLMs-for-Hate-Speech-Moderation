@@ -1,0 +1,16 @@
+Given the definition of hate speech as any form of communication in speech, writing, or behavior that attacks or
+uses pejorative or discriminatory language with reference to a person or a group based on who they are—specifically 
+their religion, ethnicity, nationality, race, color, descent, gender, or other identity factor-consider the following sentence:
+First, let's identify if the sentence attacks or uses pejorative or discriminatory language towards 
+a person or a group based on their identity. This involves looking for any language that might promote, 
+spread, or incite hatred, discrimination, or hostility against a group or individuals belonging to the 
+group based on specific factors like religion, ethnicity, nationality, etc.
+If the sentence does include such language, it can be considered as hate speech, and thus, the classification 
+would be "Toxic". If it does not contain such language and does not attack or demean any person or group based 
+on their identity, then it is not hate speech, and the classification would be "Non-Toxic".
+Let's analyze and classify the sentence accordingly.
+
+Input: {input_sentence}
+
+Response:
+

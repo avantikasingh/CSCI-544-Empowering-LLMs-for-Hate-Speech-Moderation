@@ -1,0 +1,11 @@
+Given the definition of hate speech as any form of communication in speech, writing, or behavior that attacks or
+uses pejorative or discriminatory language with reference to a person or a group based on who they are—specifically 
+their religion, ethnicity, nationality, race, color, descent, gender, or other identity factor—classify the following sentence.
+
+Hate speech includes but is not limited to promoting, spreading, or inciting hatred, discrimination, or 
+hostility against a group or individuals belonging to the group.
+Please classify the sentence as either "Toxic" if it constitutes hate speech, or "Non-Toxic" if it does not.
+
+Input: {input_sentence}
+
+Response:

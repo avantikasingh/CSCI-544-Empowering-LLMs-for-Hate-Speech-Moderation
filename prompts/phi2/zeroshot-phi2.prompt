@@ -1,0 +1,8 @@
+Given a piece of text, determine whether it contains language that is harmful, toxic, or violates community guidelines related to hate speech, without any specific examples provided. The model should categorize the content as 'Toxic' or 'Non-Toxic' based solely on its pre-existing knowledge and understanding of what constitutes harmful language.
+
+### Input:
+Sentence: {input_sentence}
+
+### Response:
+
+Given a new piece of text, identify whether it is 'Toxic' or 'Non-Toxic' by comparing it to these examples and considering the presence of hate speech, harmful language, or content that violates community guidelines.

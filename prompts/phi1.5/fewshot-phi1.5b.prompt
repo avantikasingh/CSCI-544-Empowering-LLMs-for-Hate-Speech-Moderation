@@ -1,0 +1,19 @@
+Given the definition of hate speech as any form of communication in speech, writing, or behavior that attacks or
+uses pejorative or discriminatory language with reference to a person or a group based on who they are—specifically 
+their religion, ethnicity, nationality, race, color, descent, gender, or other identity factor—classify the following 
+sentences as "Toxic" or "Non-Toxic":
+
+Examples
+- "Emotional support is just as important if not more important than financial support. If his/her parents 
+can't provide him/her with both than they should not be a parent. People should really ask themselves if they would 
+be a good parent, instead of just jumping into it because they start to feel their age. 
+Saying shit like "You live under my roof, and eat my food, so you you have no reason to complain" is such a toxic thing to say. If you are toxic/abusive/willingly absent to your children, than you are a huge piece of shit, no way around it, no matter how much money you throw at them, you are in no position to complain about the fact that they don't love you, or even hate you." -> Non-Toxic
+- "whores they dont understand morals respect etc yea we can popularise white nationalism etc alot of ppl 
+especially most women are too degenerate to understand the concept you need a no bullshit message to deal with degenerates hence whitesharia" -> Toxic
+- "LoL!! you're GAY!! you will never know how good it feels to fuck a woman up the ass!!" ->Toxic
+
+Please use the above knowledge to classify the below sentence as "Toxic" or "Non-Toxic". Do not hallucinate.
+
+Input: {input_sentence}
+
+Response:

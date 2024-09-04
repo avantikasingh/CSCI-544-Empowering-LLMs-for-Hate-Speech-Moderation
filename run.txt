@@ -1,0 +1,61 @@
+Phi-1.5
+python model_inference.py -dp hatexplain/hatexplain_test_data_bal.json -mn microsoft/phi-1_5 -pp phi1.5/zeroshot-phi1.5b.prompt -op zeroshot/hatexplain_phi1.5_zeroshot
+python model_inference.py -dp cad/cad_test_data_bal.json -mn microsoft/phi-1_5 -pp phi1.5/zeroshot-phi1.5b.prompt -op zeroshot/cad_phi1.5_zeroshot
+python model_inference.py -dp jigsaw/jigsaw_test_data_bal.json -mn microsoft/phi-1_5 -pp phi1.5/zeroshot-phi1.5b.prompt -op zeroshot/jigsaw_phi1.5_zeroshot
+---
+python model_inference.py -dp hatexplain/hatexplain_test_data_bal.json -mn microsoft/phi-1_5 -pp phi1.5/zeroshotCoT-phi1.5b.prompt -op zeroshot-cot/hatexplain_phi1.5_zeroshot
+python model_inference.py -dp cad/cad_test_data_bal.json -mn microsoft/phi-1_5 -pp phi1.5/zeroshotCoT-phi1.5b.prompt -op zeroshot-cot/cad_phi1.5_zeroshot
+python model_inference.py -dp jigsaw/jigsaw_test_data_bal.json -mn microsoft/phi-1_5 -pp phi1.5/zeroshotCoT-phi1.5b.prompt -op zeroshot-cot/jigsaw_phi1.5_zeroshot
+---
+python model_inference.py -dp hatexplain/hatexplain_test_data_bal.json -mn microsoft/phi-1_5 -pp phi1.5/fewshot-phi1.5b.prompt -op fewshot/hatexplain_phi1.5_zeroshot
+python model_inference.py -dp cad/cad_test_data_bal.json -mn microsoft/phi-1_5 -pp phi1.5/fewshot-phi1.5b.prompt -op fewshot/cad_phi1.5_zeroshot
+python model_inference.py -dp jigsaw/jigsaw_test_data_bal.json -mn microsoft/phi-1_5 -pp phi1.5/fewshot-phi1.5b.prompt -op fewshot/jigsaw_phi1.5_fewshot
+---
+
+Mistral-7B
+---
+python model_inference.py -dp hatexplain/hatexplain_test_data_bal.json -mn mistralai/Mistral-7B-v0.1 -pp mistral/zeroshot-mistral.prompt -op zeroshot/hatexplain_mistral_zeroshot
+python model_inference.py -dp cad/cad_test_data_bal.json -mn mistralai/Mistral-7B-v0.1 -pp mistral/zeroshot-mistral.prompt -op zeroshot/cad_mistral_zeroshot
+python model_inference.py -dp jigsaw/jigsaw_test_data_bal.json -mn mistralai/Mistral-7B-v0.1 -pp mistral/zeroshot-mistral.prompt -op zeroshot/jigsaw_mistral_zeroshot
+
+python evaluation.py -fp ../outputs/zeroshot/hatexplain_phi1.5_zeroshot20240405-173116.csv
+
+Phi2
+Hatespeech
+----
+python model_inference.py -dp hatexplain/hatexplain_test_data_bal.json -mn microsoft/phi-2 -pp phi1.5/zeroshot-phi1.5b.prompt -op zeroshot/hatexplain_phi2_zeroshot
+python model_inference.py -dp hatexplain/hatexplain_test_data_bal.json -mn microsoft/phi-2 -pp phi1.5/fewshot-phi1.5b.prompt -op fewshot/hatexplain_phi2_fewshot
+---
+cad
+---
+python model_inference.py -dp cad/cad_test_data_bal.json -mn microsoft/phi-2 -pp phi1.5/zeroshot-phi1.5b.prompt -op zeroshot/cad_phi2_zeroshot
+python model_inference.py -dp cad/cad_test_data_bal.json -mn microsoft/phi-2 -pp phi1.5/fewshot-phi1.5b.prompt -op fewshot/cad_phi2_fewshot
+---
+jigsaw
+---
+python model_inference.py -dp jigsaw/jigsaw_test_data_bal.json -mn microsoft/phi-2 -pp phi1.5/zeroshot-phi1.5b.prompt -op zeroshot/jigsaw_phi2_zeroshot
+python model_inference.py -dp jigsaw/jigsaw_test_data_bal.json -mn microsoft/phi-2 -pp phi1.5/fewshot-phi1.5b.prompt -op fewshot/jigsaw_phi2_fewshot
+---------------------------
+Mistral
+Hatespeech
+----
+python model_inference.py -dp hatexplain/hatexplain_test_data_bal.json -mn mistralai/Mistral-7B-v0.1 -pp mistral/zeroshot-mistral.prompt -op zeroshot/hatexplain_mis
+tral_zeroshot
+python model_inference.py -dp hatexplain/hatexplain_test_data_bal.json -mn mistralai/Mistral-7B-v0.1 -pp mistral/fewshot-mistral.prompt -op fewshot/hatexplain_mistr
+al_fewshot
+---
+cad
+---
+python model_inference.py -dp cad/cad_test_data_bal.json -mn mistralai/Mistral-7B-v0.1 -pp mistral/zeroshot-mistral.prompt -op zeroshot/cad_mistral_zeroshot
+python model_inference.py -dp cad/cad_test_data_bal.json -mn mistralai/Mistral-7B-v0.1 -pp mistral/fewshot-mistral.prompt -op fewshot/cad_mistral_fewshot
+---
+jigsaw
+---
+python model_inference.py -dp jigsaw/jigsaw_test_data_bal.json -mn mistralai/Mistral-7B-v0.1 -pp mistral/zeroshot-mistral.prompt -op zeroshot/jigsaw_mistral_zerosho
+t
+python model_inference.py -dp jigsaw/jigsaw_test_data_bal.json -mn mistralai/Mistral-7B-v0.1 -pp mistral/fewshot-mistral.prompt -op fewshot/jigsaw_mistral_fewshot
+python evaluation.py -fp ../outputs/zeroshot/hatexplain_phi1.5_zeroshot20240405-173116.csv
+
+
+python model_inference_w_retrieval.py -train hatexplain/hatexplain_train_data_bal.json -test hatexplain/hatexplain_test_data_bal.json -mn microsoft/phi-2 -pp mistral/fewshot-mistral.prompt -op fewshot-retrieval/hatexplain_phi2_fewshot_retrieval
+
